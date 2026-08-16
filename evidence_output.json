@@ -1,0 +1,62 @@
+[
+    {
+        "evidence_id": "EV-000001",
+        "drug_name": "IBUPROFEN",
+        "drug_identifier": "ANDA078682",
+        "adverse_event": "Dyspepsia",
+        "source": "OpenFDA/FAERS",
+        "source_record_id": "10003301",
+        "evidence_type": "FAERS adverse-event report",
+        "event_date": null,
+        "retrieved_at": "2026-08-15T18:48:51.356918+00:00",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22ibuprofen%22&limit=3",
+        "schema_version": "1.0",
+        "provenance": {
+            "source_system": "OpenFDA",
+            "underlying_dataset": "FAERS",
+            "retrieval_method": "REST API",
+            "transformation": "raw JSON -> normalized evidence"
+        },
+        "raw_record_reference": "10003301"
+    },
+    {
+        "evidence_id": "EV-000002",
+        "drug_name": "BENLYSTA",
+        "drug_identifier": "BLA761043",
+        "adverse_event": "Cholecystectomy",
+        "source": "OpenFDA/FAERS",
+        "source_record_id": "10003319",
+        "evidence_type": "FAERS adverse-event report",
+        "event_date": null,
+        "retrieved_at": "2026-08-15T18:48:51.356918+00:00",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22ibuprofen%22&limit=3",
+        "schema_version": "1.0",
+        "provenance": {
+            "source_system": "OpenFDA",
+            "underlying_dataset": "FAERS",
+            "retrieval_method": "REST API",
+            "transformation": "raw JSON -> normalized evidence"
+        },
+        "raw_record_reference": "10003319"
+    },
+    {
+        "evidence_id": "EV-000003",
+        "drug_name": "YAZ",
+        "drug_identifier": "NDA021676",
+        "adverse_event": "Cerebral venous thrombosis",
+        "source": "OpenFDA/FAERS",
+        "source_record_id": "10003865",
+        "evidence_type": "FAERS adverse-event report",
+        "event_date": null,
+        "retrieved_at": "2026-08-15T18:48:51.356918+00:00",
+        "source_url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct%3A%22ibuprofen%22&limit=3",
+        "schema_version": "1.0",
+        "provenance": {
+            "source_system": "OpenFDA",
+            "underlying_dataset": "FAERS",
+            "retrieval_method": "REST API",
+            "transformation": "raw JSON -> normalized evidence"
+        },
+        "raw_record_reference": "10003865"
+    }
+]
